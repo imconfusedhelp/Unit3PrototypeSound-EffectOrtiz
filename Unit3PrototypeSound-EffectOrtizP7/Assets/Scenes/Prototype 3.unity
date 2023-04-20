@@ -417,6 +417,8 @@ MonoBehaviour:
   jumpForce: 10
   gravityModifier: 2
   isOnGround: 1
+  doubleJumpUsed: 0
+  doubleJumpForce: 7
   explosionParticle: {fileID: 2145135185}
   dirtParticle: {fileID: 1741731612}
   jumpSound: {fileID: 8300000, guid: 0f7d0b7c3397f4dac91f20e8a77d2d57, type: 3}
@@ -987,6 +989,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b834c4d656764243a3e187d27ab149e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obstaclePrefabs:
+  - {fileID: 2119539335588460380, guid: 613322e906cc2d147939bcb8271ad38d, type: 3}
+  - {fileID: 2728567925511051873, guid: 21f98734affe92a42bea36334a721ac2, type: 3}
+  - {fileID: 46766868316751892, guid: 1a34902910bac3749bcb0ee0e862471b, type: 3}
   obstaclePrefab: {fileID: 2728567925511051873, guid: 21f98734affe92a42bea36334a721ac2, type: 3}
 --- !u!4 &2134032067
 Transform:
